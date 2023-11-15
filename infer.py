@@ -68,7 +68,7 @@ for i in os.listdir(args.test_dir):
     mask_rgb = mask_to_rgb(mask, color_dict)
     mask_rgb_true = cv2.cvtColor(mask_rgb, cv2.COLOR_BGR2RGB)
     mask_rgb = cv2.cvtColor(mask_rgb, cv2.COLOR_RGB2BGR)
-    cv2.imwrite(args.predict_dir.format(i), mask_rgb)
+    cv2.imwrite(f'{args.predict_dir}/{i}',mask_rgb)
 print("Loaded & Processed Test file")
 
 def rle_to_string(runs):

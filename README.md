@@ -1,4 +1,3 @@
 # BKAI-IGH-NeoPolyp-Assignment
-pip install -r requirements.txt
-By running infer.py, we can get file submission.csv to check on kaggle <br>
-Please download model from the following link: 
+By running infer.py, we can get file submission.csv to check on competition <br>
+Please follow step by step in the following link: https://www.kaggle.com/thimcun/infer-notebook
